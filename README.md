@@ -6,12 +6,13 @@ Spatial desktops for i3 and sway.
 
 Putting every browser window in one workspace makes it hard to keep separate
 projects apart. And a project often needs more than one workspace: one for its
-web pages, one for its code, and one for Claude. i3 has no built-in way to group
-those workspaces as a project while keeping each one independently accessible.
+web pages, one for its code, and one for a coding agent. i3 has no built-in way
+to group those workspaces as a project while keeping each one independently
+accessible.
 
 This project adds a **desktop**: a higher-level project space that groups a set
-of related workspaces. Each project can have its own set of workspaces, and you
-can move within the desktop spatially to browser the workspaces.
+of related workspaces. Each desktop can have its own set of workspaces, and you
+can move within the desktop spatially to browse the workspaces.
 
 For example, `e` means editor, `c` means code, or claude, or other project tools
 (tests, benchmarks, and so on), and `b` means browser. Instead of keeping those
